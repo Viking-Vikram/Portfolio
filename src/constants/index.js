@@ -101,15 +101,6 @@ const technologies = [
     name: "Node JS",
     icon: nodejs,
   },
-
-  {
-    name: "jQuery",
-    icon: jquery,
-  },
-  {
-    name: "Sass",
-    icon: sass,
-  },
   {
     name: "C++",
     icon: cplusplus,
