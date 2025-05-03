@@ -115,7 +115,7 @@ const Contact = () => {
             <div
               onClick={() =>
                 window.open(
-                  "https://drive.google.com/file/d/1kHa3widPSJW2A9hi6nCSWW80BmPueSSb/view?usp=sharing",
+                  "https://drive.google.com/file/d/1zfJuY9o05W6wejE6AXv521E2u5V2HOMd/view?usp=sharing",
                   "_blank"
                 )
               }
