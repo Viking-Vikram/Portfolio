@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { logo, menu, close } from "../assets";
-import resumePdf from "../assets/Vikram_Resume.pdf";
+// import resumePdf from "../assets/Vikram_Resume.pdf";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -29,7 +29,7 @@ const Navbar = () => {
   const handleResumeDownload = () => {
     // Trigger the download
     const link = document.createElement("a");
-    link.href = resumePdf;
+    link.href = "https://drive.google.com/file/d/1zfJuY9o05W6wejE6AXv521E2u5V2HOMd/view?usp=sharing";
     link.download = "Vikram_Resume.pdf"; // Set the desired file name
     link.click();
   };
