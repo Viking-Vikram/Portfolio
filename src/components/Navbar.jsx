@@ -28,10 +28,15 @@ const Navbar = () => {
 
   const handleResumeDownload = () => {
     // Trigger the download
+    const fileId = "1zfJuY9o05W6wejE6AXv521E2u5V2HOMd";
+    const downloadUrl = `https://drive.google.com/uc?export=download&id=${fileId}`;
+
     const link = document.createElement("a");
-    link.href = "https://drive.google.com/file/d/1zfJuY9o05W6wejE6AXv521E2u5V2HOMd/view?usp=sharing";
-    link.download = "Vikram_Resume.pdf"; // Set the desired file name
+    link.href = downloadUrl;
+    link.download = "Vikram_Resume.pdf";
+    document.body.appendChild(link); // Required for Firefox
     link.click();
+    document.body.removeChild(link);
   };
 
   return (
