@@ -40,13 +40,12 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        👋 Hi, I'm Vikram Kadarla, a Software Engineer with 1.5 years of
-        experience in web development, specializing in ReactJS, AngularJS, and
-        TypeScript. I thrive at building responsive, user-friendly applications
-        and solving complex challenges. From designing innovative personal
-        projects to creating robust applications for industry leaders like
-        Motorola Solutions, my journey has been about blending creativity with
-        technology. Let's create meaningful digital experiences together! 🚀
+        👋 Hi, I'm Vikram Kadarla, Results-driven Full Stack Developer with 4+ years of experience building scalable web applications and enterprise solutions
+using React.js, Node.js, TypeScript, SQL, and REST APIs. Skilled in designing responsive component-based frontend
+architectures and integrating them with backend microservices, cloud-based systems, and secure API workflows. Proven
+expertise in optimizing PostgreSQL queries, developing secure JWT/OAuth authentication systems, and leveraging AWS,
+Docker, Redis, and CI/CD pipelines to improve application performance, streamline deployments, and deliver reliable user
+experiences across modern web platforms.🚀
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
