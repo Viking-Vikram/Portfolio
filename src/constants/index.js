@@ -26,6 +26,8 @@ import {
   meta,
   starbucks,
   motorola,
+  McKesson,
+  greentouchtech,
   prepMaestro,
   tesla,
   shopify,
@@ -123,7 +125,7 @@ const experiences = [
   {
     title: "Software Engineer",
     company_name: "McKesson",
-    icon: motorola,
+    icon: McKesson,
     iconBg: "#E6DEDD",
     date: "Sep 2024 – Present",
     points: [
@@ -138,7 +140,7 @@ const experiences = [
   {
     title: "Software Engineer",
     company_name: "Green Touch Technology",
-    icon: prepMaestro,
+    icon: greentouchtech,
     iconBg: "#E6DEDD",
     date: "Feb 2021 – Jul 2023",
     points: [
