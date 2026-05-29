@@ -125,7 +125,7 @@ const experiences = [
     company_name: "McKesson",
     icon: motorola,
     iconBg: "#E6DEDD",
-    date: "March 2022 - June 2023",
+    date: "Sep 2024 – Present",
     points: [
       "Spearheaded the migration of legacy dashboards to React and Node.js, integrating RESTful APIs with Redis caching to decrease latency by approximately 20 – 25% and enhance efficiency for over 1,000 daily users.",
       "Architected a scalable microservices backend utilizing Node.js and AWS EC2 deployment, reducing manual data reconciliation time by approximately 25 – 30% while facilitating seamless synchronization across enterprise healthcare workflows and secure data exchange systems.",
@@ -140,7 +140,7 @@ const experiences = [
     company_name: "Green Touch Technology",
     icon: prepMaestro,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Feb 2021 – Jul 2023",
     points: [
       "Developed responsive user interfaces for industrial touch monitors utilizing React and Redux, augmenting user interaction metrics by approximately 30 – 35% and securing an optimized customer experience across 4 distinct hardware configurations.",
       "Optimized complex PostgreSQL database queries and advanced indexing strategies, directly improving backend API response times by approximately 25 – 30% during peak high-traffic production usage for the primary enterprise software platform.",
