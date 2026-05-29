@@ -40,7 +40,7 @@ const Contact = () => {
           from_name: form.name,
           to_name: "Vikram Kadarla",
           from_email: form.email,
-          to_email: "Kadarlavikram032001@gmail.com",
+          to_email: "vikramkadarla120@gmail.com",
           message: form.message,
         },
         "QpS_7k3JuOGdyaX3L"
@@ -115,7 +115,7 @@ const Contact = () => {
             <div
               onClick={() =>
                 window.open(
-                  "https://drive.google.com/file/d/1zfJuY9o05W6wejE6AXv521E2u5V2HOMd/view?usp=sharing",
+                  "https://drive.google.com/file/d/1ZyMLG3slYq8X3BY4KUdFgVsvBSj1RBSK/view?usp=share_link",
                   "_blank"
                 )
               }
