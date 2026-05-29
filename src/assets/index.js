@@ -38,7 +38,7 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import motorola from "./company/motorola.png";
 import prepMaestro from "./company/prepMaestro.png.webp";
-import McKesson from "./company/McKesson.jpeg";
+import mcKesson from "./company/McKesson.jpeg";
 import greentouchtech from "./company/greentouchtech.jpeg";
 
 import dummyPortfolio from "./dummyPortfolio.png";
@@ -86,6 +86,8 @@ export {
   starbucks,
   motorola,
   prepMaestro,
+  mcKesson,
+  greentouchtech,
   tesla,
   dummyPortfolio,
   vikramRecipes,
