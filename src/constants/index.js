@@ -121,29 +121,31 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Web Developer",
-    company_name: "Motorola Solutions",
+    title: "Software Engineer",
+    company_name: "McKesson",
     icon: motorola,
     iconBg: "#E6DEDD",
     date: "March 2022 - June 2023",
     points: [
-      "Collaborated with a 13-member front-end team to develop a Dispatcher web application using Angular, creating 10 components with ES6 for clean, efficient, and maintainable code.",
-      "Identified the root cause and resolved 20 critical bugs, assisted in resolving major and minor issues, significantly improving application stability and performance.",
+      "Spearheaded the migration of legacy dashboards to React and Node.js, integrating RESTful APIs with Redis caching to decrease latency by approximately 20 – 25% and enhance efficiency for over 1,000 daily users.",
+      "Architected a scalable microservices backend utilizing Node.js and AWS EC2 deployment, reducing manual data reconciliation time by approximately 25 – 30% while facilitating seamless synchronization across enterprise healthcare workflows and secure data exchange systems.",
       "Corrected and maintained over 1000 automation test cases using TypeScript and Selenium, ensuring high test coverage, reliability, and application robustness in a CI/CD environment.",
-      "Conducted manual testing, uncovering and documenting over 500 bugs after code changes, streamlining debugging efforts for the development team.",
-      "Recognized with cash awards for completing a record number of pull requests in a single sprint, demonstrating efficiency and commitment to project goals.",
-      "Documented all procedures and solutions comprehensively to facilitate seamless knowledge transfer and future maintenance.",
+      "Engineered automated cloud deployment pipelines incorporating GitHub Actions and Amazon S3, minimizing deployment failures by approximately 15 – 20% and ensuring reliable delivery of continuous feature enhancements to the core enterprise platform.",
+      "Formulated robust backend APIs with Node.js connecting client portals with ServiceNow workflows and PostgreSQL databases, implementing JWT and OAuth authorization to secure data retrieval and increase overall enterprise system security.",
+      "Implemented comprehensive Jest and React Testing Library unit testing frameworks across the frontend architecture, achieving approximately 80 – 85% code coverage and improving deployment reliability by eliminating critical post-release software regressions.",
     ],
   },
   {
-    title: "UI Web Developer",
-    company_name: "prepMaestro",
+    title: "Software Engineer",
+    company_name: "Green Touch Technology",
     icon: prepMaestro,
     iconBg: "#E6DEDD",
     date: "Jan 2021 - Feb 2022",
     points: [
-      "Led the design, web development, and maintenance of a responsive mock test-taking web application within a 3-member team, ensuring optimal functionality and usability.",
-      "Orchestrated planning, tracking, and management of deliverables across 10 weekly sprints in an Agile environment, actively engaging in comprehensive code reviews to uphold quality standards and familiarity with Scrum methodologies.",
+      "Developed responsive user interfaces for industrial touch monitors utilizing React and Redux, augmenting user interaction metrics by approximately 30 – 35% and securing an optimized customer experience across 4 distinct hardware configurations.",
+      "Optimized complex PostgreSQL database queries and advanced indexing strategies, directly improving backend API response times by approximately 25 – 30% during peak high-traffic production usage for the primary enterprise software platform.",
+      "Integrated RESTful third-party payment gateway APIs into the primary client software platform using Express.js, decreasing transaction failure rates by approximately 10 – 15% and driving a substantial increase in monthly digital revenue.",
+      "Restructured the monolithic legacy codebase into scalable microservices utilizing Node.js and Docker on AWS EC2, trimming average server hosting expenses by approximately 15 – 20% and improving systemic scalability for future enterprise expansions.",
     ],
   },
 ];
