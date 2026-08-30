@@ -28,7 +28,7 @@ const Navbar = () => {
 
   const handleResumeDownload = () => {
     // Trigger the download
-    const fileId = "1zfJuY9o05W6wejE6AXv521E2u5V2HOMd";
+    const fileId = "1TTbIVolPH9DvWDlk4lgJl63rZpQmQm_y";
     const downloadUrl = `https://drive.google.com/uc?export=download&id=${fileId}`;
 
     const link = document.createElement("a");
